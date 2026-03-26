@@ -1,0 +1,76 @@
+{
+  "site": {
+    "name": "Neurologyca Developer Hub",
+    "headline": "Documentation and tools for every Neurologyca integration.",
+    "description": "A central home for Kopernica Engine and Constellation APIs, references, playgrounds, and supporting technical documentation.",
+    "status": "Two products. One place to start."
+  },
+  "sections": [
+    {
+      "id": "engine",
+      "title": "Kopernica Engine",
+      "description": "Core Engine API references and supporting technical documentation.",
+      "items": [
+        {
+          "title": "Swagger UI",
+          "description": "Interactive browser-based reference for Engine endpoints.",
+          "url": "https://engine.neurologyca.ai/swagger/index.html",
+          "type": "Swagger"
+        },
+        {
+          "title": "API Documentation PDF",
+          "description": "Reference PDF covering the Neurologyca Engine API.",
+          "url": "/docs/neurologyca-engine-api.pdf",
+          "type": "PDF"
+        },
+        {
+          "title": "KPN File Format PDF",
+          "description": "Specification PDF for the KPN file format.",
+          "url": "/docs/kpn-file-description.pdf",
+          "type": "PDF"
+        }
+      ]
+    },
+    {
+      "id": "constellation",
+      "title": "Constellation",
+      "description": "Public API references, playground access, and supporting documentation for Constellation.",
+      "items": [
+        {
+          "title": "Swagger UI",
+          "description": "Interactive public API documentation for Constellation.",
+          "url": "https://constellations-api.proudrock-fe5ed166.westus3.azurecontainerapps.io/api/v1/docs/public/swagger",
+          "type": "Swagger"
+        },
+        {
+          "title": "ReDoc",
+          "description": "Readable reference documentation view for the public Constellation API.",
+          "url": "https://constellations-api.proudrock-fe5ed166.westus3.azurecontainerapps.io/api/v1/docs/public",
+          "type": "ReDoc"
+        },
+        {
+          "title": "Playground",
+          "description": "Public sandbox environment with shared access credentials.",
+          "url": "https://orange-pebble-0b948b31e.2.azurestaticapps.net/",
+          "type": "Playground",
+          "details": [
+            {
+              "label": "Username",
+              "value": "viewer"
+            },
+            {
+              "label": "Password",
+              "value": "9=CtjzAKi&TCTOOq507aTnJi"
+            }
+          ]
+        },
+        {
+          "title": "Documentation PDF",
+          "description": "Reference PDF for Constellation platform documentation.",
+          "url": "/docs/constellation.pdf",
+          "type": "PDF"
+        }
+      ]
+    }
+  ]
+}
