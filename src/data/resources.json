@@ -20,13 +20,13 @@
         {
           "title": "API Documentation PDF",
           "description": "Reference PDF covering the Neurologyca Engine API.",
-          "url": "docs/neurologyca-engine-api.pdf",
+          "url": "./docs/neurologyca-engine-api.pdf",
           "type": "PDF"
         },
         {
           "title": "KPN File Format PDF",
           "description": "Specification PDF for the KPN file format.",
-          "url": "docs/kpn-file-description.pdf",
+          "url": "./docs/kpn-file-description.pdf",
           "type": "PDF"
         }
       ]
@@ -67,7 +67,7 @@
         {
           "title": "Documentation PDF",
           "description": "Reference PDF for Constellation platform documentation.",
-          "url": "docs/constellation.pdf",
+          "url": "./docs/constellation.pdf",
           "type": "PDF"
         }
       ]

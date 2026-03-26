@@ -2,7 +2,9 @@
 import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
+const isGitHubPages = process.env.GITHUB_ACTIONS === 'true';
+
 export default defineConfig({
-	site: 'https://neurologyca.github.io',
-	base: '/api-dev-site',
+	site: isGitHubPages ? 'https://neurologyca.github.io' : undefined,
+	base: isGitHubPages ? '/api-dev-site' : '/',
 });
