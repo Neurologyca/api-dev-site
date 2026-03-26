@@ -3,7 +3,6 @@ import Layout from '../layouts/Layout.astro';
 import resources from '../data/resources.json';
 
 const { site, sections } = resources;
-const baseUrl = import.meta.env.BASE_URL;
 ---
 
 <Layout title={site.name} description={site.description}>
@@ -11,7 +10,7 @@ const baseUrl = import.meta.env.BASE_URL;
 		<header class="site-header">
 			<div class="container header-inner">
 				<a class="brand" href="#" aria-label={`${site.name} home`}>
-					<img src={`${baseUrl}branding/logo.svg`} alt={`${site.name} logo`} />
+					<img src="./branding/logo.svg" alt={`${site.name} logo`} />
 				</a>
 				<nav class="header-nav" aria-label="Section navigation">
 					{sections.map((section) => <a href={`#${section.id}`}>{section.title}</a>)}
