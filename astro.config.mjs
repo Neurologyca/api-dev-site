@@ -3,6 +3,6 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://rob-neuro.github.io',
-	base: '/DevSite',
+	site: 'https://neurologyca.github.io',
+	base: '/api-dev-site',
 });
